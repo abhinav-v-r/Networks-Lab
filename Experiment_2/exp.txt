@@ -1,0 +1,20 @@
+Start your web browser and clear the browser's cache memory. Open Wireshark and start
+capturing. Then visit any webpage of your choice. Type http in the filter field of the
+Wireshark and click Apply so that only HTTP messages are displayed. After enough
+packets have been captured, select the Capture from the pull-down menu and select Stop
+to stop capturing.
+Using the captured information, determine the following:
+(a) the source IP address and destination IP address of the first GET message
+(b) the medium format, the language, the encoding, and the character set that the
+client can accept. (Use the first GET message)
+(c) the URL of the website and the user agent (Use the first GET message)
+(d) the source IP address and destination IP address of the first response message
+(e) the status codes for the first response message.
+(f) when the HTML file that you are retrieving was last modified at the server
+(g) value of the content-length field of the first response message
+(h) how long it took from the time the GET message was sent until the response
+message was received.
+(Use the timestamps of a GET message and that of the corresponding response
+message. By default, the time column's value is the amount of time in seconds
+since Wireshark tracing began.)
+(i) the HTTP version of your browser.
